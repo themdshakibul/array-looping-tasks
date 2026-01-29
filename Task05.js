@@ -4,8 +4,8 @@
 
 // Expected Output:
 
-// Original: [1, 2, 3]
-// Copy: [99, 2, 3]
+Original: [1, 2, 3]
+Copy: [99, 2, 3]
 
 const Input = [1, 2, 3];
 
@@ -15,3 +15,14 @@ copy[0] = 99;
 
 console.log("Original array :", Input);
 console.log("Copy array :", copy);
+
+
+// solition -02
+
+const original = [1, 2, 3]
+const cop = original.slice()
+
+cop[0] = 99 // change 1 idnex number
+
+console.log("Original", original)
+console.log("Copy", cop)
