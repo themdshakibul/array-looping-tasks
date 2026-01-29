@@ -29,9 +29,6 @@ for (let i = 0; i < colors.length; i++) {
 }
 // console.log(rev_number);
 
-
-
-
 //! direct for looop
 const rev_rev_numbres = [];
 for (let i = colors.length - 1; i >= 0; i--) {
